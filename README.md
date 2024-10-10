@@ -10,7 +10,39 @@ https://huggingface.co/grnahass/periorbital_segmentation/tree/main. Graphical sc
 
 ![image](https://github.com/user-attachments/assets/1de1f733-a1e9-4923-a6cc-bcc881547edb)
 
+The Segment Anything Model and the UNET results were not included in the original paper, but were added to this repository to avoid import errors. Additionally, it can be fun to play with SAM and other segmentation architectures... We have found that DeepLabV3 tends to perform the best at this task.
+
+## Package
+
+The trained model and periorbital distance prediction pipeline are available through Pip : https://pypi.org/project/periorbital-package/. For most use cases, this package should eliminate the need to retrain from scratch.
 
 ## Dataset Access
 
 Data can be downloaded as a zip file from https://zenodo.org/records/13916845
+
+## Cite Us
+
+If you found this repository useful in your work, please cite us and star this repository :D
+
+@misc{nahass2024opensourceperiorbitalsegmentationdataset,
+      title={Open-Source Periorbital Segmentation Dataset for Ophthalmic Applications}, 
+      author={George R. Nahass and Emma Koehler and Nicholas Tomaras and Danny Lopez and Madison Cheung and Alexander Palacios and Jefferey Peterson and Sacha Hubschman and Kelsey Green and Chad A. Purnell and Pete Setabutr and Ann Q. Tran and Darvin Yi},
+      year={2024},
+      eprint={2409.20407},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2409.20407}, 
+}
+
+@dataset{nahass_2024_13916845,
+  author       = {Nahass, George R. and
+                  Yi, Darvin},
+  title        = {{Segmentation Dataset for Periorbital Segmentation 
+                   and Distance Prediction}},
+  month        = oct,
+  year         = 2024,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.13916845},
+  url          = {https://doi.org/10.5281/zenodo.13916845}
+}
+
