@@ -34,15 +34,4 @@ If you found this repository useful in your work, please cite us and star this r
       url={https://arxiv.org/abs/2409.20407}, 
 }
 
-@dataset{nahass_2024_13916845,
-  author       = {Nahass, George R. and
-                  Yi, Darvin},
-  title        = {{Segmentation Dataset for Periorbital Segmentation 
-                   and Distance Prediction}},
-  month        = oct,
-  year         = 2024,
-  publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.13916845},
-  url          = {https://doi.org/10.5281/zenodo.13916845}
-}
 
